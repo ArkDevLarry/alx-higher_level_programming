@@ -5,9 +5,8 @@ if __name__ == "__main__":
     import sys
 
     sum = 0;
-    args = sys.argv;
-    count = len(args) - 1;
+    count = len(sys.argv) - 1;
     for i in range(count):
-        sum += int(args[i + 1]);
+        sum += int(sys.argv[i + 1]);
 
-    print(sum);
+    print("{:d}".format(sum));
