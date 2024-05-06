@@ -22,7 +22,7 @@ void print_python_float(PyObject *p)
 	printf("  value: %s\n", string);
 }
 /**
- * print_python_bytes - gives data of the PyBytesObject
+ * print_python_bytes - gives data of the PyBytesObjec
  * @p: the PyObject
  */
 void print_python_bytes(PyObject *p)
