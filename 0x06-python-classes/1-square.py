@@ -5,7 +5,6 @@
 
 class Square:
     """A square is a shape that has 4 equal sides."""
-    
     def __init__(self, size):
         """Initialize a new Square.
 
