@@ -12,7 +12,6 @@ N must be an integer greater than or equal to 4.
 Attributes:
     board (list): A list of lists representing the chessboard.
     solutions (list): A list of lists containing solutions.
-
 Solutions are represented in the format [[r, c], [r, c], [r, c], [r, c]]
 where `r` and `c` represent the row and column, respectively, where a
 queen must be placed on the chessboard.
@@ -51,7 +50,6 @@ def xout(board, row, col):
 
     All spots where non-attacking queens can no
     longer be played are X-ed out.
-
     Args:
         board (list): The current working chessboard.
         row (int): The row where a queen was last played.
@@ -101,7 +99,6 @@ def xout(board, row, col):
 
 def recursive_solve(board, row, queens, solutions):
     """Recursively solve an N-queens puzzle.
-
     Args:
         board (list): The current working chessboard.
         row (int): The current working row.
