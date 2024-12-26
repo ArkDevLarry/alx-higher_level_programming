@@ -1,1 +1,1 @@
-isInstance
+type
