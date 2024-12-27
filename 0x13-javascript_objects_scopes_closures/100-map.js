@@ -1,7 +1,11 @@
 #!/usr/bin/node
+// script that imports an array and computes a new array
 
-exports.converter = function (base) {
-  return function (num) {
-    return num.toString(base);
-  };
-};
+const array = require('./100-data').list;
+
+console.log(array);
+let cont = 0;
+const map1 = array.map(function (x) {
+  return (x * cont++);
+});
+console.log(map1);
